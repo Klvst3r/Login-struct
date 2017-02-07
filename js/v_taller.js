@@ -3,7 +3,7 @@ $(function(){
 		var cadena = $('#form_taller').serialize();	
 
 				$.ajax({
-					url:'v_taller.php',
+					url:'validate.php',
 					data: cadena,
 					type:'POST',
 					dataType:'HTML',

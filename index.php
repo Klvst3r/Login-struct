@@ -31,7 +31,7 @@
 					<label for="">Usuario</label>
 					<input type="text" id="name" class="form-control">
 					<label for="">Clave</label>
-					<input type="text" id="pass" class="form-control"><br>
+					<input type="password" id="pass" class="form-control"><br>
 					<img src="images/loader.gif" alt="" style="display: none;" id="loader">
 					<input type="submit" class="btn btn-primary" id="btn">
 					<div id="res" style="display: none;"></div>

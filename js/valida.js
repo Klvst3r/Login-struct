@@ -23,7 +23,7 @@ $(function(){
 					},
 		
 					error : function(jqXHR, status, error) {
-						alert('Disculpe, existió un problema.');
+						alert('Disculpe, existió un problema con la conexión a la Base de Datos.');
 					}
 				});//cierra ajax
 	});//cierra form
@@ -44,7 +44,7 @@ $(function(){
 					},
 		
 					error : function(jqXHR, status, error) {
-					alert('Disculpe, existió un problema.');
+					alert('Disculpe, existió un problema con sus credenciales.');
 					}
 				});//cierra ajax
 
