@@ -30,7 +30,7 @@
 		session_start();
 		$_SESSION['id_usu']=$consul_active[0];
 		$_SESSION['nom_usu']=$consul_active[1];
-		echo "<script>location='panel_usu.php';</script>";
+		echo "<script>location='panel_user.php';</script>";
 	}else{
 		echo "<br><div class='alert alert-danger'>El usuario no existe o esta inactivo.</div>";
 	}
