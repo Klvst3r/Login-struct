@@ -15,11 +15,15 @@
       <p>
       ### Info ###
       <br/>
+      <p>
       This System create a beginning of session with PHP, conect a Database with MySQL, inlcuded session and rols to admin and user.
       The forml Login Validation is from JS with AJAX.
+      </p>
+      <p>
+      I should change the session in authentication
+      </p>
       
       <br/>
-      </p>
       <p>
       ### Config ###
       <br/>
