@@ -11,10 +11,13 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
 <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/taller_php.js"></script>
+
 <link href="css/font-awesome.css" rel="stylesheet">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">   
 <title>Login de acceso</title>
@@ -26,7 +29,7 @@
 		<div class="col-md-4">
 			<h3>Crear nuevo usuario</h3>
 			<div class="well">
-				<form action="v_nuevo_usu.php" method="post">
+				<form action="new_user.php" method="post">
 					<label for="">Nombre de usuario</label>
 					<input type="text" name="name_usu" class="form-control">
 					<label for="">Clave</label>
