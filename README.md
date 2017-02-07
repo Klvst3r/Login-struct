@@ -22,6 +22,9 @@
       <p>
       I should change the session in authentication
       </p>
+      <p>
+      This is only a Login Test you will not use to Development use.
+      </p>
       
       <br/>
       <p>
