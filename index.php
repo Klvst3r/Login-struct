@@ -32,7 +32,7 @@
 					<input type="text" id="name" class="form-control">
 					<label for="">Clave</label>
 					<input type="password" id="pass" class="form-control"><br>
-					<img src="images/loader.gif" alt="" style="display: none;" id="loader">
+					<img src="img/loader.gif" alt="" style="display: none;" id="loader">
 					<input type="submit" class="btn btn-primary" id="btn">
 					<div id="res" style="display: none;"></div>
 				</form>
