@@ -30,16 +30,18 @@
 	<div class="row">
 		<div class="col-md-4">
 			<h1>Login de acceso</h1>
+
 			<div class="well">
 				<form action="JavaScript:void(0);" method="post" id="form-login">
 					<label for="">Usuario</label>
-					<input type="text" id="name" class="form-control">
+					<input type="text" id="name" class="form-control" required />
 					<label for="">Clave</label>
-					<input type="text" id="pass" class="form-control"><br>
+					<input type="text" id="pass" class="form-control" required /><br/>
 					<img src="img/loader.gif" alt="" style="display: none;" id="loader">
 					<input type="submit" class="btn btn-primary" id="btn">
 					<div id="res" style="display: none;"></div>
 				</form>
+
 			</div>
 		</div>
 	</div>
