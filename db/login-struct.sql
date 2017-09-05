@@ -42,6 +42,8 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 
 --
 -- Dumping data for table `usuarios`
+-- User: klvst3r
+-- Pass: admin
 --
 
 INSERT INTO `usuarios` (`usu_id`, `usu_nombre`, `usu_clave`, `usu_activo`) VALUES
